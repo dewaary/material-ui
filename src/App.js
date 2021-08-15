@@ -4,6 +4,7 @@ import Create from './pages/Create'
 import Typo from './pages/Typo';
 import Buttom from './pages/Buttom';
 import Icons from './pages/Icons';
+import Style from './pages/style';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/icon">
           <Icons />
+        </Route>
+        <Route path="/style">
+          <Style />
         </Route>
       </Switch>
     </Router>
